@@ -1,0 +1,170 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Score keeper for Carcassonne</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="discard">Discard</string>
+    <string name="undo">Undo</string>
+    <string name="keep_playing">Keep playing</string>
+    <string name="score_log">Score log</string>
+    <string name="names_and">%1$s &amp; %2$s</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours">%1$d h %2$d min</string>
+    <plurals name="points">
+        <item quantity="one">%d point</item>
+        <item quantity="other">%d points</item>
+    </plurals>
+    <plurals name="wins">
+        <item quantity="one">%d win</item>
+        <item quantity="other">%d wins</item>
+    </plurals>
+    <plurals name="wins_label">
+        <item quantity="one">win</item>
+        <item quantity="other">wins</item>
+    </plurals>
+    <plurals name="games">
+        <item quantity="one">%d game</item>
+        <item quantity="other">%d games</item>
+    </plurals>
+    <plurals name="entries">
+        <item quantity="one">%d entry</item>
+        <item quantity="other">%d entries</item>
+    </plurals>
+
+    <!-- Pawn colours -->
+    <string name="color_red">Red</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_black">Black</string>
+    <string name="color_pink">Pink</string>
+    <string name="color_custom_hex">Custom colour %1$s</string>
+    <string name="pawn_colour">Pawn colour</string>
+    <string name="pawn_colour_for">Pawn colour for %1$s</string>
+    <string name="custom_colour">Custom colour</string>
+    <string name="choose_custom_colour">Choose a custom colour…</string>
+    <string name="edit_custom_colour">Edit custom colour</string>
+    <string name="colour_taken_short">Taken</string>
+    <string name="colour_taken">Another player already has this colour</string>
+    <string name="hex_code">Hex code</string>
+    <string name="hue">Hue</string>
+    <string name="saturation">Saturation</string>
+    <string name="brightness">Brightness</string>
+    <string name="use_colour">Use this colour</string>
+
+    <!-- Home -->
+    <string name="settings">Settings</string>
+    <string name="home_ready_title">Ready to play?</string>
+    <string name="home_ready_body">Add the players and keep score as tiles are placed.</string>
+    <string name="new_game">New game</string>
+    <string name="game_in_progress">Game in progress</string>
+    <string name="started_at">Started %1$s</string>
+    <string name="resume_game">Resume game</string>
+    <string name="start_new_instead">Start a new game instead</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="leaderboard_subtitle">All-time wins</string>
+    <string name="history">History</string>
+    <string name="history_none">No games yet</string>
+    <string name="top_players">Top players</string>
+    <string name="discard_title">Discard current game?</string>
+    <string name="discard_body">The game in progress and its scores will be lost. It will not be saved to history.</string>
+
+    <!-- Setup -->
+    <string name="setup_hint">Players in turn order. Tap a pawn to choose its colour.</string>
+    <string name="player_placeholder">Player %1$d</string>
+    <string name="remove_player">Remove player</string>
+    <string name="change_colour">Choose pawn colour</string>
+    <string name="add_player">Add player</string>
+    <string name="recent_players">Recent players</string>
+    <string name="start_game">Start game</string>
+    <plurals name="setup_need_players">
+        <item quantity="one">Add at least %d player</item>
+        <item quantity="other">Add at least %d players</item>
+    </plurals>
+    <string name="setup_need_names">Every player needs a name</string>
+    <string name="setup_duplicate_names">Two players have the same name</string>
+    <string name="setup_duplicate_colours">Two players have the same pawn colour</string>
+
+    <!-- Scoring -->
+    <string name="scoring_title">Scores</string>
+    <string name="undo_last">Undo last entry</string>
+    <string name="finish">Finish</string>
+    <string name="scoring_empty_log">Tap +1 for each point, or use the keypad to type a number. Type a negative number (e.g. −9) to correct a mistake.</string>
+    <string name="removed_entry">Removed %1$s %2$s</string>
+    <string name="no_points_title">No points yet</string>
+    <string name="no_points_body">Nothing has been scored in this game, so there is nothing to save. Discard it?</string>
+    <string name="finish_title">Finish game?</string>
+    <plurals name="finish_winner">
+        <item quantity="one">%1$s wins with %2$d point.</item>
+        <item quantity="other">%1$s wins with %2$d points.</item>
+    </plurals>
+    <plurals name="finish_tie">
+        <item quantity="one">%1$s tie with %2$d point.</item>
+        <item quantity="other">%1$s tie with %2$d points.</item>
+    </plurals>
+    <string name="finish_save">Finish &amp; save</string>
+    <string name="leading">Leading</string>
+    <string name="plus_one">+1</string>
+    <string name="add_one_to">Add 1 point to %1$s</string>
+    <string name="type_points_for">Type points for %1$s</string>
+    <string name="remove_entry">Remove entry</string>
+    <string name="current_score">Current score %1$d</string>
+    <string name="delete_digit">Delete digit</string>
+    <string name="toggle_sign">Switch between adding and deducting</string>
+    <plurals name="add_points">
+        <item quantity="one">Add %d point</item>
+        <item quantity="other">Add %d points</item>
+    </plurals>
+    <plurals name="deduct_points">
+        <item quantity="one">Deduct %d point</item>
+        <item quantity="other">Deduct %d points</item>
+    </plurals>
+    <string name="enter_points">Enter points</string>
+
+    <!-- Game details -->
+    <string name="final_scores">Final scores</string>
+    <string name="delete_game">Delete game</string>
+    <string name="game_meta">%1$s · %2$s · %3$s</string>
+    <string name="home">Home</string>
+    <string name="play_again">Play again</string>
+    <string name="winner_single">%1$s wins!</string>
+    <string name="winner_tie">%1$s tie!</string>
+    <string name="delete_game_title">Delete this game?</string>
+    <string name="delete_game_body">It will be removed from history and from the all-time leaderboard.</string>
+
+    <!-- History -->
+    <string name="history_title">Game history</string>
+    <string name="history_empty_title">No finished games</string>
+    <string name="history_empty_body">Games are saved here with their date, players and scores when you tap Finish.</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard_title">All-time leaderboard</string>
+    <string name="leaderboard_empty_title">No winners yet</string>
+    <string name="leaderboard_empty_body">Finish a game and the winners will show up here.</string>
+    <plurals name="leaderboard_summary">
+        <item quantity="one">%d game played. Players tied for first all get the win.</item>
+        <item quantity="other">%d games played. Players tied for first all get the win.</item>
+    </plurals>
+    <!-- "N played" reads the same for any N in English; translations may restructure it. -->
+    <string name="leader_stats" tools:ignore="PluralsCandidate">%1$d played · %2$d%% wins · best %3$d · avg %4$d</string>
+    <string name="rank">Rank %1$d</string>
+
+    <!-- Settings -->
+    <string name="keep_awake">Keep screen awake</string>
+    <string name="keep_awake_summary">Stop the display from turning off while the app is open</string>
+    <string name="clear_history">Clear game history</string>
+    <string name="clear_history_summary">Delete all finished games and reset the leaderboard</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_summary">This app collects no personal data</string>
+    <string name="unofficial_disclaimer">Unofficial score keeper. Carcassonne is a trademark of Hans im Glück Verlags-GmbH. This app is not affiliated with or endorsed by Hans im Glück or any publisher of the game.</string>
+    <string name="version">Version</string>
+    <string name="clear_history_title">Clear all history?</string>
+    <plurals name="clear_history_body">
+        <item quantity="one">%d finished game and the all-time leaderboard will be deleted. This cannot be undone.</item>
+        <item quantity="other">All %d finished games and the all-time leaderboard will be deleted. This cannot be undone.</item>
+    </plurals>
+    <string name="delete_all">Delete all</string>
+</resources>
